@@ -1,0 +1,57 @@
+#+title: The Agency Problem
+#+author: Matt Brigida, Ph.D.
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+
+* The Goal of Financial Management
+
+To enable more equity financing (as well as to allow limited liability), we separate the ownership and control of the firm.  Control of the firm is held by the shareholders, however this control is delegated to professional management. Management is referred to as an `agent` of the shareholders.
+
+Because of the delegated control it is important that management is given a clear and unambiguous goal:  
+
+
+<center>`Maximize Shareholder Wealth.`</center>
+
+
+But does this guarantee that management will do so?
+
+
+
+* The Agency Problem
+
+The *agency problem* is when management (the agent) puts their own interest before maximizing shareholder wealth.  The reduction in shareholdear wealth due to an agency problem is known as an *agency cost*.
+
+
+
+
+* Direct Agency Costs
+
+
+# just a test to see if an app works---it does.
+#+BEGIN_COMMENT
+#+BEGIN_EXPORT html
+  <div>
+    <iframe src="https://micfm.shinyapps.io/compounding_app1/" height="600px" width="100%"></iframe>
+  </div>
+#+END_EXPORT
+#+END_COMMENT
+
+
+
+* Indirect Agency Costs
+
+1. Management does not take risky positive net present value projects for fear of losing their jobs if the projects fail.
+
+
+
+ 
+
+<!-- ideas for interactive app -->
+<!-- can we query somthing from SEC? -->
+
+<!--- maybe pull SEC forms for a given company -->
+
+<!--- find company's which may have have an agency problem becuase of high levels of employee ownership -->
+<!--- 11-K 	Annual reports of employee stock purchase, savings and similar plans pursuant to Section 15(d) (PDF) -->
+<!--- Who owns the companys, find companies with blockholders -->
+<!--- 3 	Initial statement of beneficial ownership of securities (PDF) -->
+
