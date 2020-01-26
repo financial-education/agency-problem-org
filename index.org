@@ -4,46 +4,53 @@
 
 * The Goal of Financial Management
 
-To enable more equity financing (as well as to allow limited liability), we separate the ownership and control of the firm.  Control of the firm is held by the shareholders, however this control is delegated to professional management. Management is referred to as an `agent` of the shareholders.
+To enable more equity financing (as well as to allow limited liability), we separate the ownership and control of the firm.  Control of the firm is held by the shareholders, however this control is delegated to professional management. Management is referred to as an **agent** of the shareholders.
 
-Because of the delegated control it is important that management is given a clear and unambiguous goal:  
+Because of the delegated control it is important that management is given a clear and unambiguous goal.  This goal is:
 
-
-<center>`Maximize Shareholder Wealth.`</center>
-
+#+begin_quote
+Maximize Shareholder Wealth.
+#+end_quote
 
 But does this guarantee that management will do so?
 
-
-
 * The Agency Problem
 
-The *agency problem* is when management (the agent) puts their own interest before maximizing shareholder wealth.  The reduction in shareholdear wealth due to an agency problem is known as an *agency cost*.
+The *agency problem* is when management (the agent) puts their own interest before maximizing shareholder wealth.  The reduction in shareholder wealth due to an agency problem is known as an *agency cost*.
 
+The agency problem (and agency costs) are always present when there is a separation of ownership and control.  However, the severity of the agency problem can vary widely, and is affected by management (agent) incentives, laws, and the extent to which laws are enforced.
 
-
+Some agency costs are clear, and others are subtle.  Below we discuss two brad types of agency costs with examples.
 
 * Direct Agency Costs
 
+- 
 
-# just a test to see if an app works---it does.
-#+BEGIN_COMMENT
-#+BEGIN_EXPORT html
-  <div>
-    <iframe src="https://micfm.shinyapps.io/compounding_app1/" height="600px" width="100%"></iframe>
-  </div>
-#+END_EXPORT
-#+END_COMMENT
 
 
 
 * Indirect Agency Costs
 
-1. Management does not take risky positive net present value projects for fear of losing their jobs if the projects fail.
+- Management does not take a risky positive net present value project for fear of losing their jobs if the project fail.
+- The CEO acquires other companies to make their own company larger (empire building), thereby raising pay and social status.
 
 
 
- 
+* SEC DEF14A 
+
+
+[[https://www.sec.gov/edgar/searchedgar/companysearch.html][You can search for filings by company here.]]  
+
+
+* Assignment
+
+Pick a company which name starts with the same letter as the first letter of your last name.  For example, my last name starts with *B*, so I could choose *Boeing* (ticker BA).  If you are having a hard time finding a company, [[https://iextrading.com/apps/stocks/][just go here and type in the first letter of your last name in the search bar at the top]].
+
+1.  Is the CEO also Chairman of the Board?
+2.  Who are the directors and what is their pay?
+3.  Who is the firm's auditor?
+
+
 
 <!-- ideas for interactive app -->
 <!-- can we query somthing from SEC? -->
@@ -55,3 +62,17 @@ The *agency problem* is when management (the agent) puts their own interest befo
 <!--- Who owns the companys, find companies with blockholders -->
 <!--- 3 	Initial statement of beneficial ownership of securities (PDF) -->
 
+
+
+
+
+
+
+# just a test to see if an app works---it does.
+#+BEGIN_COMMENT
+#+BEGIN_EXPORT html
+  <div>
+    <iframe src="https://micfm.shinyapps.io/compounding_app1/" height="600px" width="100%"></iframe>
+  </div>
+#+END_EXPORT
+#+END_COMMENT
