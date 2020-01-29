@@ -39,19 +39,22 @@ Some agency costs are clear, and others are subtle.  Below we discuss two brad t
 * SEC DEF14A 
 
 
-[[https://www.sec.gov/edgar/searchedgar/companysearch.html][You can search for filings by company here.]]  
+
 
 
 * Assignment
 
 Pick a company which name starts with the same letter as the first letter of your last name.  For example, my last name starts with *B*, so I could choose *Boeing* (ticker BA).  If you are having a hard time finding a company, [[https://iextrading.com/apps/stocks/][just go here and type in the first letter of your last name in the search bar at the top]].
 
+Once you have a company, search [[https://www.sec.gov/edgar/searchedgar/companysearch.html][the filings for the latest DEF14A here.]]  Use the filing to answer the following questions.
+
 1.  Is the CEO also Chairman of the Board?
 2.  Who are the directors and what is their pay?
 3.  Who is the firm's auditor?
 
+Upload your answers to the Blackboard dropbox.
 
-
+#+BEGIN_COMMENT
 <!-- ideas for interactive app -->
 <!-- can we query somthing from SEC? -->
 
@@ -61,6 +64,7 @@ Pick a company which name starts with the same letter as the first letter of you
 <!--- 11-K 	Annual reports of employee stock purchase, savings and similar plans pursuant to Section 15(d) (PDF) -->
 <!--- Who owns the companys, find companies with blockholders -->
 <!--- 3 	Initial statement of beneficial ownership of securities (PDF) -->
+#+END_COMMENT
 
 
 
