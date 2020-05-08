@@ -24,15 +24,30 @@ Some agency costs are clear, and others are subtle.  Below we discuss two brad t
 
 * Direct Agency Costs
 
-- 
+- Excessive pay
 
 
+#+BEGIN_QUOTE
+The debate about a straw man.  Media and some corporate finance textbooks will often ask the question, is CEO pay excessive?  They then say well Oprah and LeBron James also make a lot of money and well it is a free market after all, so no it is not excessive.  Some textbooks will also cite CEO's like Oracle's Larry Ellison without noting that Larry is has a huge ownership stake as well as being CEO (management).
+
+The sleight-of-hand being done here is that no one thinks shareholders can't pay the CEO whatever they want.  The issue is precisely that the present financial and legal structure *hinders shareholders ability to set CEO pay*.  Stated simply, CEO pay is a symptom of an underlying problem, and it is not the problem itself.  So you can't discuss the symptom while not naming the cause. 
+
+To effectively affect CEO pay you need to own a significant enough stake in the company to:
+
+1.  Separate the CEO title from the Chairman title---think about what the dual title means.
+2.  Affect the nomination of the slate of Board of Directors to be voted on.
+
+Now consider the regulation that required you to file a Schedule 13-D with the SEC within 10 days of acquiring a 5% stake in the company. Also consider much of a company's stock is held by investors through funds, and the fund votes their shares for them.
+#+END_QUOTE
 
 
 * Indirect Agency Costs
 
 - Management does not take a risky positive net present value project for fear of losing their jobs if the project fail.
 - The CEO acquires other companies to make their own company larger (empire building), thereby raising pay and social status.
+
+
+* Solving the Agency Problem:  The Market for Corporate Control
 
 
 
