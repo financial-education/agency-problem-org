@@ -49,6 +49,9 @@ Now consider the regulation that required you to file a Schedule 13-D with the S
 
 * Solving the Agency Problem:  The Market for Corporate Control
 
+If the agency problem gets too large, the stock price should fall.  As the stock price falls, it becomes cheaper and cheaper to buy the firm's assets.  Eventually investors will start bidding to acquire the firm, and once they do, the present management if often replaced.
+
+In such fashion, acquisitions represent the most effective solution to the agency problem.  The only drawback is the agency problem must become quite large before acquisitions will be attempted.
 
 
 * SEC DEF14A 
