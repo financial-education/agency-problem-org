@@ -24,7 +24,7 @@ Some agency costs are clear, and others are subtle.  Below we discuss two brad t
 
 * Direct Agency Costs
 
-- Excessive pay
+- Excessive Pay
 
 
 #+BEGIN_QUOTE
@@ -46,12 +46,16 @@ Now consider the regulation that required you to file a Schedule 13-D with the S
 - Management does not take a risky positive net present value project for fear of losing their jobs if the project fail.
 - The CEO acquires other companies to make their own company larger (empire building), thereby raising pay and social status.
 
-
+  
 * Solving the Agency Problem:  The Market for Corporate Control
 
 If the agency problem gets too large, the stock price should fall.  As the stock price falls, it becomes cheaper and cheaper to buy the firm's assets.  Eventually investors will start bidding to acquire the firm, and once they do, the present management if often replaced.
 
 In such fashion, acquisitions represent the most effective solution to the agency problem.  The only drawback is the agency problem must become quite large before acquisitions will be attempted.
+
+You may have heard that often corporations have anti-takeover amendments in their article of incorporation.  What effect do you think this has on the agency problem?  
+
+
 
 
 * SEC DEF14A 
