@@ -2,6 +2,12 @@
 #+author: Matt Brigida, Ph.D.
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
 
+You can also see this video:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MI4BCgS883c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+end_export
+
 * The Goal of Financial Management
 
 To enable more equity financing (as well as to allow limited liability), we separate the ownership and control of the firm.  Control of the firm is held by the shareholders, however this control is delegated to professional management. Management is referred to as an **agent** of the shareholders.
