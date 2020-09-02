@@ -46,6 +46,10 @@ To effectively affect CEO pay you need to own a significant enough stake in the 
 Now consider the regulation that required you to file a Schedule 13-D with the SEC within 10 days of acquiring a 5% stake in the company. Also consider much of a company's stock is held by investors through funds, and the fund votes their shares for them.
 
 To see how little shareholders affect executive compensation, see the [[https://www.sec.gov/Archives/edgar/data/320193/000119312514008074/d648739ddef14a.htm][2014 proxy statement Apple Inc.]]  Shareholders will vote on, "A non-binding advisory resolution to approve executive compensation (Proposal No. 6)".
+
+Specifically, "As an advisory vote, this proposal is not binding on the Company, the Board or the Compensation Committee, and will not be construed as overruling a decision by the Company, the Board or the Compensation Committee or creating or implying any additional fiduciary duty for the Company, the Board or the Compensation Committee. However, the Compensation Committee and the Board value the opinions expressed by shareholders in their vote on this proposal and will consider the outcome of the vote when making future compensation decisions regarding named executive officers."
+
+This means a direct vote by the shareholders has no bearing on pay, only the opinion of the shareholders' elected representatives.  This is fine so long as the Board faithfully represents the shareholders.
 #+END_QUOTE
 
 
