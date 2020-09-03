@@ -34,9 +34,9 @@ Some agency costs are clear, and others are subtle.  Below we discuss two brad t
 - Auditor payments.
 
 #+BEGIN_QUOTE
-The debate about a straw man.  Media and some corporate finance textbooks will often ask the question, is CEO pay excessive?  They then say well Oprah and LeBron James also make a lot of money and we have free markets, so no it is not excessive.  Some textbooks will also cite CEO's like Oracle's Larry Ellison without noting that Larry is has a huge ownership stake as well as being CEO (management).
+The debate about excessive executive pay usually introduces a straw man argument.  Media and some corporate finance textbooks will often ask the question, is CEO pay excessive?  They then say well Oprah and LeBron James also make a lot of money and we have free markets, so no it is not excessive.  Some textbooks will also cite CEO's like Oracle's Larry Ellison without noting that Larry is has a huge ownership stake as well as being CEO (management).  The (straw man) argument being made is shareholders should be able to pay executives whatever they want.
 
-The sleight-of-hand being done here is that no one thinks shareholders can't pay the CEO whatever they want.  The issue is precisely that the present financial and legal structure *hinders shareholders ability to set CEO pay*.  Stated simply, CEO pay is a symptom of an underlying problem, and it is not the problem itself.  So you can't discuss the symptom while not naming the cause. 
+The fact is that no one thinks shareholders can't pay the CEO whatever they want.  The issue is precisely that the present financial and legal structure *hinders shareholders ability to set CEO pay*.  Stated simply, CEO pay is a symptom of an underlying problem, and it is not the problem itself.  So you can't discuss the symptom while not naming the cause. 
 
 To effectively affect CEO pay you need to own a significant enough stake in the company to:
 
