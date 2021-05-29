@@ -1,6 +1,6 @@
 #+title: The Agency Problem
 #+author: Matt Brigida, Ph.D.
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/setup/theme-readtheorg.setup
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
 You can also see this video:
 

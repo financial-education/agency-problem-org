@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2020-09-03 Thu 11:00 -->
+<!-- 2021-05-28 Fri 22:01 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>The Agency Problem</title>
@@ -40,7 +40,7 @@
   }
   pre.src {
     position: relative;
-    overflow: visible;
+    overflow: auto;
     padding-top: 1.2em;
   }
   pre.src:before {
@@ -52,7 +52,7 @@
     padding: 3px;
     border: 1px solid black;
   }
-  pre.src:hover:before { display: inline;}
+  pre.src:hover:before { display: inline; margin-top: 14px;}
   /* Languages per Org manual */
   pre.src-asymptote:before { content: 'Asymptote'; }
   pre.src-awk:before { content: 'Awk'; }
@@ -161,6 +161,19 @@
   .footdef  { margin-bottom: 1em; }
   .figure { padding: 1em; }
   .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
   .inlinetask {
     padding: 10px;
     border: 2px solid gray;
@@ -180,57 +193,33 @@
   .org-svg { width: 90%; }
   /*]]>*/-->
 </style>
-<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/htmlize.css"/>
-<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/styles/readtheorg/css/readtheorg.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/lib/js/jquery.stickytableheaders.min.js"></script>
-<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/styles/readtheorg/js/readtheorg.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
 <script type="text/javascript">
-/*
-@licstart  The following is the entire license notice for the
-JavaScript code in this tag.
-
-Copyright (C) 2012-2017 Free Software Foundation, Inc.
-
-The JavaScript code in this tag is free software: you can
-redistribute it and/or modify it under the terms of the GNU
-General Public License (GNU GPL) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.  The code is distributed WITHOUT ANY WARRANTY;
-without even the implied warranty of MERCHANTABILITY or FITNESS
-FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
-
-As additional permission under GNU GPL version 3 section 7, you
-may distribute non-source (e.g., minimized or compacted) forms of
-that code without the copy of the GNU GPL normally required by
-section 4, provided you include this license notice and a URL
-through which recipients can access the Corresponding Source.
-
-
-@licend  The above is the entire license notice
-for the JavaScript code in this tag.
-*/
+// @license magnet:?xt=urn:btih:1f739d935676111cfff4b4693e3816e664797050&amp;dn=gpl-3.0.txt GPL-v3-or-Later
 <!--/*--><![CDATA[/*><!--*/
- function CodeHighlightOn(elem, id)
- {
-   var target = document.getElementById(id);
-   if(null != target) {
-     elem.cacheClassElem = elem.className;
-     elem.cacheClassTarget = target.className;
-     target.className = "code-highlighted";
-     elem.className   = "code-highlighted";
-   }
- }
- function CodeHighlightOff(elem, id)
- {
-   var target = document.getElementById(id);
-   if(elem.cacheClassElem)
-     elem.className = elem.cacheClassElem;
-   if(elem.cacheClassTarget)
-     target.className = elem.cacheClassTarget;
- }
-/*]]>*///-->
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
 </script>
 </head>
 <body>
@@ -240,13 +229,13 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgf1a967d">1. The Goal of Financial Management</a></li>
-<li><a href="#orgf5eede1">2. The Agency Problem</a></li>
-<li><a href="#org83971c1">3. Direct Agency Costs</a></li>
-<li><a href="#org43ffb69">4. Indirect Agency Costs</a></li>
-<li><a href="#orga93cd46">5. Solving the Agency Problem:  The Market for Corporate Control</a></li>
-<li><a href="#org570a8ed">6. SEC DEF14A</a></li>
-<li><a href="#org7819db3">7. Assignment</a></li>
+<li><a href="#org69d891f">1. The Goal of Financial Management</a></li>
+<li><a href="#org11ac55a">2. The Agency Problem</a></li>
+<li><a href="#org58ffc87">3. Direct Agency Costs</a></li>
+<li><a href="#orgd4ed96a">4. Indirect Agency Costs</a></li>
+<li><a href="#org1b90155">5. Solving the Agency Problem:  The Market for Corporate Control</a></li>
+<li><a href="#orgc47885a">6. SEC DEF14A</a></li>
+<li><a href="#org985a9b7">7. Assignment</a></li>
 </ul>
 </div>
 </div>
@@ -256,8 +245,8 @@ You can also see this video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MI4BCgS883c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div id="outline-container-orgf1a967d" class="outline-2">
-<h2 id="orgf1a967d"><span class="section-number-2">1</span> The Goal of Financial Management</h2>
+<div id="outline-container-org69d891f" class="outline-2">
+<h2 id="org69d891f"><span class="section-number-2">1.</span> The Goal of Financial Management</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 To enable more equity financing (as well as to allow limited liability), we separate the ownership and control of the firm.  Control of the firm is held by the shareholders, however this control is delegated to professional management. Management is referred to as an <b><b>agent</b></b> of the shareholders.
@@ -279,8 +268,8 @@ But does this guarantee that management will do so?
 </div>
 </div>
 
-<div id="outline-container-orgf5eede1" class="outline-2">
-<h2 id="orgf5eede1"><span class="section-number-2">2</span> The Agency Problem</h2>
+<div id="outline-container-org11ac55a" class="outline-2">
+<h2 id="org11ac55a"><span class="section-number-2">2.</span> The Agency Problem</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 The <b>agency problem</b> is when management (the agent) puts their own interest before maximizing shareholder wealth.  The reduction in shareholder wealth due to an agency problem is known as an <b>agency cost</b>.
@@ -296,8 +285,8 @@ Some agency costs are clear, and others are subtle.  Below we discuss two brad t
 </div>
 </div>
 
-<div id="outline-container-org83971c1" class="outline-2">
-<h2 id="org83971c1"><span class="section-number-2">3</span> Direct Agency Costs</h2>
+<div id="outline-container-org58ffc87" class="outline-2">
+<h2 id="org58ffc87"><span class="section-number-2">3.</span> Direct Agency Costs</h2>
 <div class="outline-text-2" id="text-3">
 <ul class="org-ul">
 <li>Excessive Pay</li>
@@ -342,8 +331,8 @@ This means a direct vote by the shareholders has no bearing on pay, only the opi
 </div>
 
 
-<div id="outline-container-org43ffb69" class="outline-2">
-<h2 id="org43ffb69"><span class="section-number-2">4</span> Indirect Agency Costs</h2>
+<div id="outline-container-orgd4ed96a" class="outline-2">
+<h2 id="orgd4ed96a"><span class="section-number-2">4.</span> Indirect Agency Costs</h2>
 <div class="outline-text-2" id="text-4">
 <ul class="org-ul">
 <li>Management does not take a risky positive net present value project for fear of losing their jobs if the project fail.</li>
@@ -352,8 +341,8 @@ This means a direct vote by the shareholders has no bearing on pay, only the opi
 </div>
 </div>
 
-<div id="outline-container-orga93cd46" class="outline-2">
-<h2 id="orga93cd46"><span class="section-number-2">5</span> Solving the Agency Problem:  The Market for Corporate Control</h2>
+<div id="outline-container-org1b90155" class="outline-2">
+<h2 id="org1b90155"><span class="section-number-2">5.</span> Solving the Agency Problem:  The Market for Corporate Control</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 If the agency problem gets too large, the stock price should fall.  As the stock price falls, it becomes cheaper and cheaper to buy the firm's assets.  Eventually investors will start bidding to acquire the firm, and once they do, the present management if often replaced.
@@ -369,8 +358,8 @@ You may have heard that often corporations have anti-takeover amendments in thei
 </div>
 </div>
 
-<div id="outline-container-org570a8ed" class="outline-2">
-<h2 id="org570a8ed"><span class="section-number-2">6</span> SEC DEF14A</h2>
+<div id="outline-container-orgc47885a" class="outline-2">
+<h2 id="orgc47885a"><span class="section-number-2">6.</span> SEC DEF14A</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 The form <a href="https://www.sec.gov/fast-answers/answersproxyhtfhtm.html">SEC Def 14A</a> is a company's annual <i>definitive</i> proxy statement.  A proxy statement outlines what shareholders will vote on at the annual meeting.
@@ -378,8 +367,8 @@ The form <a href="https://www.sec.gov/fast-answers/answersproxyhtfhtm.html">SEC 
 </div>
 </div>
 
-<div id="outline-container-org7819db3" class="outline-2">
-<h2 id="org7819db3"><span class="section-number-2">7</span> Assignment</h2>
+<div id="outline-container-org985a9b7" class="outline-2">
+<h2 id="org985a9b7"><span class="section-number-2">7.</span> Assignment</h2>
 <div class="outline-text-2" id="text-7">
 <p>
 Pick a company which name starts with the same letter as the first letter of your last name.  For example, my last name starts with <b>B</b>, so I could choose <b>Boeing</b> (ticker BA).  If you are having a hard time finding a company, <a href="https://iextrading.com/apps/stocks/">just go here and type in the first letter of your last name in the search bar at the top</a>.
@@ -403,8 +392,8 @@ Upload your answers to the Blackboard dropbox.
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Matt Brigida, Ph.D.</p>
-<p class="date">Created: 2020-09-03 Thu 11:00</p>
-<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="date">Created: 2021-05-28 Fri 22:01</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>
